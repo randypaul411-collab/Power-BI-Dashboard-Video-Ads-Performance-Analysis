@@ -6,7 +6,7 @@
 
 ---
 
-## 🧾 Overview
+##  Overview
 
 This project presents an **interactive Power BI dashboard** designed to analyze video advertisement performance. It delivers a clear, executive-level view of key business metrics, enabling stakeholders to evaluate campaign effectiveness, engagement, and cost efficiency.
 
@@ -81,4 +81,4 @@ This project presents an **interactive Power BI dashboard** designed to analyze 
   - [kpi_calculations.sql](https://github.com/randypaul411-collab/Power-BI-Dashboard-Video-Ads-Performance-Analysis/blob/main/EDA_video_ad_performance_db.sql)  
 
 -  **Dataset**  
-   - [cleaned_data.csv ](https://github.com/randypaul411-collab/Video-Advertising-ads-Performance-Analysis/blob/main/cleaned_video_ad_performance.csv) 
+   - [cleaned_data.csv ](https://github.com/randypaul411-collab/Power-BI-Dashboard-Video-Ads-Performance-Analysis/blob/main/eda_video_ad_performance.csv)
