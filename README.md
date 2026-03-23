@@ -1,4 +1,4 @@
-# 📊 Power BI Dashboard: Video Ad Performance Analysis
+# Power BI Dashboard: Video Ad Performance Analysis
 
 ![Power BI](https://img.shields.io/badge/Tool-PowerBI-yellow)
 ![Dashboard](https://img.shields.io/badge/Type-Interactive%20Dashboard-blue)
@@ -12,7 +12,7 @@ This project presents an **interactive Power BI dashboard** designed to analyze 
 
 ---
 
-## 🏠 Page 1: Home Dashboard
+## Page 1: Home Dashboard
 
 ### Dashboard Preview
 ![Home Dashboard](image/home-dashboard.jpeg)
@@ -69,18 +69,16 @@ This project presents an **interactive Power BI dashboard** designed to analyze 
 - Performance Tier (High / Medium / Low)   
 
 ---
+
+
 ## Project Structure
 
-```bash
-├── README.md
-├── PowerBI/
-│   └── [dashboard.pbix](https://github.com/randypaul411-collab/Power-BI-Dashboard-Video-Ads-Performance-Analysis/blob/main/EDA_video_ad_performance_db.sql)
-├── SQL/
-│   ├── data_cleaning.sql
-│   ├── eda_queries.sql
-│   └── kpi_calculations.sql
-├── Dataset/
-│   └── cleaned_data.csv
-├── images/
-│   ├── home-dashboard.png
-│   └── performance-dashboard.png
+- **Power BI Dashboard**  
+  - [video_ad_performance_dashboard.pbix](https://github.com/randypaul411-collab/Power-BI-Dashboard-Video-Ads-Performance-Analysis/blob/main/Video_ads_analysis.pbix)  
+
+- **SQL Scripts**
+  - [cleaned_code.sql](https://github.com/randypaul411-collab/Video-Advertising-ads-Performance-Analysis/blob/main/Cleaning_video_ad_performance_db.sql)
+  - [kpi_calculations.sql](https://github.com/randypaul411-collab/Power-BI-Dashboard-Video-Ads-Performance-Analysis/blob/main/EDA_video_ad_performance_db.sql)  
+
+-  **Dataset**  
+   - [cleaned_data.csv ](https://github.com/randypaul411-collab/Video-Advertising-ads-Performance-Analysis/blob/main/cleaned_video_ad_performance.csv) 
