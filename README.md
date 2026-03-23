@@ -17,61 +17,70 @@ This project presents an **interactive Power BI dashboard** designed to analyze 
 ### Dashboard Preview
 ![Home Dashboard](image/home-dashboard.jpeg)
 
-### Key Highlights
-- Executive summary of revenue, views, watch time, and engagement
-- Video type comparison
-- Revenue contribution and performance tier distribution
-- Cost efficiency insights
+### What this page shows:
+- KPI summary (Revenue, Views, Watch Time, Cost)
+- Viewership & Engagement insights
+- Revenue distribution by video type and performance tier
+- Cost efficiency comparison  
 
-### Visuals Included
-- KPI Cards
-- Total Views by Video Type
-- Engagement Contribution by Video Type
-- Revenue Contribution by Video Type
-- Revenue Distribution by Performance Tier
-- Average Price per Watch by Video Type
-
+### Key Insights
+- Long-format ads dominate engagement, contributing over *70% of total watch time per view*, indicating strong audience retention  
+- Long ads also achieve slightly higher total views, suggesting better reach  
+- Revenue is evenly distributed across video types, while high-performing ads account for more than *56% of total revenue*  
+- Cost analysis shows long ads deliver slightly better efficiency with a lower price per watch  
 ---
 
-## 📊 Page 2: Best & Worst Performing Ads
+## Page 2: Best & Worst Performing Ads
 
 ### Dashboard Preview
 ![Performance Dashboard](image/performance-dashboard.jpeg)
 
-### Key Highlights
-- Best-performing ads by revenue, views, and watch time
-- Worst-performing ads by revenue, views, and watch time
-- Quick identification of high-impact and underperforming campaigns
+### What this page shows:
+- Top 5 best-performing ads across revenue, views, and watch time  
+- Bottom 5 worst-performing ads across key performance metrics  
+- Clear comparison of highest and lowest performing campaigns to highlight performance gaps and optimization opportunities  
 
-### Visuals Included
-- Top 5 Ads by Revenue
-- Top 5 Ads by Views
-- Top 5 Ads by Watch Time
-- Bottom 5 Ads by Revenue
-- Bottom 5 Ads by Views
-- Bottom 5 Ads by Watch Time
+###  Best Performing Ads
+- *punitory-otorhinolaryngologist* leads in revenue generation, making it the most financially impactful campaign  
+- *subbranches-spatially* dominates both views and watch time, indicating strong audience reach and engagement  
 
----
-
-## 🎨 Dashboard Design
-
-- Minimal and executive-friendly layout
-- Clear separation between overview and detailed analysis
-- Consistent color coding for video type and performance tiers
-- Business-focused storytelling through visuals
+###  Worst Performing Ads
+- *tiptop-stummel* consistently ranks lowest across revenue, views, and watch time, indicating poor performance and low audience engagement  
 
 ---
 
-## 🚀 Outcome
+##  Tools Used
 
-This dashboard helps stakeholders:
-- Monitor overall ad performance
-- Compare short vs long ad effectiveness
-- Identify top and low-performing campaigns
-- Support data-driven optimization decisions
+- **Power BI** – Dashboard design & visualization  
+- **Power Query** – Data transformation  
+- **DAX** – KPI and measure calculations  
+- **SQL** – Data preparation and advanced KPI computation for both summary and detailed analysis, including revenue aggregation, engagement rate analysis, performance tier segmentation, and ranking of top and underperforming ads across revenue, views, and watch time
 
 ---
 
-## 💡 Portfolio Highlight
+## Key Metrics
 
-> Designed a two-page Power BI dashboard that transforms video advertising data into clear, actionable business insights through executive-level visual storytelling.
+- Total Revenue  
+- Total Views  
+- Total Watch Time  
+- Average Watch Time per View  
+- Average Price per Watch  
+- Engagement Rate  
+- Performance Tier (High / Medium / Low)   
+
+---
+## Project Structure
+
+```bash
+├── README.md
+├── PowerBI/
+│   └── [dashboard.pbix](https://github.com/randypaul411-collab/Power-BI-Dashboard-Video-Ads-Performance-Analysis/blob/main/EDA_video_ad_performance_db.sql)
+├── SQL/
+│   ├── data_cleaning.sql
+│   ├── eda_queries.sql
+│   └── kpi_calculations.sql
+├── Dataset/
+│   └── cleaned_data.csv
+├── images/
+│   ├── home-dashboard.png
+│   └── performance-dashboard.png
