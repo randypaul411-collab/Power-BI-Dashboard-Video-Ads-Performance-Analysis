@@ -15,7 +15,7 @@ This project presents an **interactive Power BI dashboard** designed to analyze 
 ## 🏠 Page 1: Home Dashboard
 
 ### Dashboard Preview
-![Home Dashboard](images/home-dashboard.png)
+![Home Dashboard](image/home-dashboard.jpegs)
 
 ### Key Highlights
 - Executive summary of revenue, views, watch time, and engagement
@@ -36,7 +36,7 @@ This project presents an **interactive Power BI dashboard** designed to analyze 
 ## 📊 Page 2: Best & Worst Performing Ads
 
 ### Dashboard Preview
-![Performance Dashboard](images/performance-dashboard.png)
+![Performance Dashboard](images/performance-dashboard.jpegs)
 
 ### Key Highlights
 - Best-performing ads by revenue, views, and watch time
